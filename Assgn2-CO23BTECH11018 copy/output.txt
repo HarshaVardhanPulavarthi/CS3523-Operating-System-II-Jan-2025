@@ -1,0 +1,4 @@
+Completed checking of row 0 at 19:40:22 (802069) hrs and found it as valid.
+Completed checking of row 1 at 19:40:22 (805650) hrs and found it as invalid.
+Sudoku is invalid.
+The total time taken is 3894.00 microseconds.

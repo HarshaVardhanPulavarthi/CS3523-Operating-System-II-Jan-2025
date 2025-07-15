@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/harshavardhanpulavarthi/Desktop/IITH/Semester_4/Operating Systems 2/Assgn2-CO23BTECH11018",
+      "program": "/Users/harshavardhanpulavarthi/Desktop/IITH/Semester_4/Operating Systems 2/Assgn2-CO23BTECH11018/build/Debug/outDebug"
+    }
+  ]
+}

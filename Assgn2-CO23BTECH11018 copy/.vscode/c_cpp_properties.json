@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "macos-clang-arm64",
+            "includePath": [
+                "/opt/homebrew/opt/llvm/include/c++/v1",
+                "/usr/local/include",
+                "/usr/include",
+                "${workspaceFolder}/**"
+            ],
+            "compilerPath": "/opt/homebrew/bin/clang++",
+            "cStandard": "${default}",
+            "cppStandard": "c++20",
+            "intelliSenseMode": "macos-clang-arm64",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

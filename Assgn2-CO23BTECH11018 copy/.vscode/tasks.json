@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build and Run C++ (Clang)",
+            "type": "shell",
+            "command": "/opt/homebrew/Cellar/llvm/19.1.7_1/bin/clang++",
+            "args": [
+                "-std=c++23",        // Use C++23 standard
+                "-Wall",             // Show all warnings
+                "-o", "output",      // Output executable file named "output"
+                "${file}"            // The currently open file
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run C++ Program",
+            "type": "shell",
+            "command": "./output",
+            "problemMatcher": [],
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            }
+        }
+    ]
+}
